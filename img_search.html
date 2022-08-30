@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Image</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="img_style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Advance</a></li>
+        </ul>
+    </nav>
+
+    <div class="banner">
+        <img src="google_logo.svg" alt="google_logo">
+    </div>
+
+    <div class="search">
+        <form action="https://www.google.com/images">
+            <input type="text" name="q" autocomplete="off" spellcheck="false" placeholder="Search Google or type a URL" autofocus="autofocus" onfocus="this.select()">
+            <i id = "glass" class="fa-solid fa-magnifying-glass"></i>
+            <i id = "mic" class="fa-solid fa-microphone"></i>
+            <br>
+            <input type="submit" value="Image Search">
+        </form>
+    </div>
+
+</body>
+</html>
+
